@@ -29,7 +29,10 @@ date
 ls -l /etc/passwd /etc/shadow
 grep ^root: /etc/passwd /etc/shadow
 
+passwd <<EOF
 passwd
+passwd
+EOF
 
 echo in-change:
 date
